@@ -187,6 +187,7 @@ final class Bootstrap {
         BootstrapCheck.check(nodeSettings);
 
         node = new Node(nodeSettings);
+        System.out.println("changes are made");
     }
 
     private static Environment initialSettings(boolean foreground) {
